@@ -7,48 +7,69 @@
 
 }
 .firstDiv{
-    padding-top:  80px;
+  padding-top: 50px;
+  padding-right: 30px;
+  /* padding-bottom: 50px; */
+  text-align: center;
+  display: inline-block;
+  
+  
 }
-.Features {
+.features li {
     display: inline-block;
-    padding: 5px 20px 5px 20px;
-}
+    font-size: 20px;
+    padding: 20px;
+
+  }
+
+   .features {
+    background-color: rgb(214, 238, 230);
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+  }
+
 .header11{
     position: fixed;
     background-color: rgb(214, 238, 230);
     width: 100%;
     border: 1px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     align-items: center;
+    font-style: italic;
+    vertical-align: baseline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.Pricing {
-    display: inline-block;
-    padding: 5px 20px 5px 20px;
-}
-.Recources {
-    display: inline-block;
-    padding: 5px 20px 5px 20px;
-}
+
 .button2{
     background-color: aquamarine;
     border-radius: 50px;
     float: right;
     margin-right: 20px;
+    vertical-align: baseline;
 }
 .button1{
     background-color: white;
     border-radius: 50px;
     margin-right: 20px;
     float: right;
+    vertical-align: baseline;
 }
 .heading1{
+    padding-top: 140px;
     padding-right: 1200px;
     font-size: 55px;
+    vertical-align: baseline;
+
 }
 .brandimg{
     border: 5px;
     border-radius: 10px;
+    vertical-align: baseline;
 }
 .detailedimg{
     border: 5px;
@@ -71,11 +92,12 @@
 } 
 .img2{
     
-    width: 800px;
+    width: 700px;
     height: 550px;
     float: right;
     border: 1px;
     border-radius: 20px;
+    margin-top: -350px;
 }
 .chap{
     text-align: center;
